@@ -1,0 +1,43 @@
+ body{
+    background-color: aqua;
+ }
+ .todo-list{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+    border-radius:3%;
+    width: auto;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    
+
+ }
+ .delete-btn, .move-btn {
+    text-align: center;
+    border-radius:  5px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: antiquewhite;
+ }
+ .delete-btn:hover {
+    background-color:  lightcoral;
+ }
+ .move-btn:hover {
+    background-color: lightcoral;
+ }
+ .todo-list ol,li{
+    padding: 0%;
+    list-style-type: none;
+}
+.add, .add-tt {
+    text-align: center;
+    border-radius:  5px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
